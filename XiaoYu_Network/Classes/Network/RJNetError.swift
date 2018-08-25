@@ -14,13 +14,6 @@ enum RJNetErrorType :Int{
 }
 class RJNetError: NSError {
     
-    override init(domain: String, code: Int, userInfo dict: [String : Any]? = nil) {
-        super.init(domain: domain, code: code, userInfo: dict)
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
     class
         func requsetState(_ retStr:String?) -> Bool {
         let errorType = RJNetError.netErrorTypeWithRet(retStr)

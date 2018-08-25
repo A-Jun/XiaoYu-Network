@@ -31,9 +31,9 @@
 		083403DDE868A367E3E17FF6 /* Pods-XiaoYu_Network_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiaoYu_Network_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XiaoYu_Network_Example/Pods-XiaoYu_Network_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		11497EFBD1244E9388FBBC03 /* Pods_XiaoYu_Network_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XiaoYu_Network_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		130C2CF8F6D60B41B6A9A0BB /* Pods_XiaoYu_Network_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XiaoYu_Network_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3ED667B1E5EF7713042BD7A4 /* XiaoYu_Network.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XiaoYu_Network.podspec; path = ../XiaoYu_Network.podspec; sourceTree = "<group>"; };
+		3ED667B1E5EF7713042BD7A4 /* XiaoYu_Network.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XiaoYu_Network.podspec; path = ../XiaoYu_Network.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4D748B66B257DE5335C09480 /* Pods-XiaoYu_Network_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiaoYu_Network_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XiaoYu_Network_Tests/Pods-XiaoYu_Network_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4D94824696325015CF3A4185 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4D94824696325015CF3A4185 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* XiaoYu_Network_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiaoYu_Network_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		CAA48CF7D64FE78AE346EAAF /* Pods-XiaoYu_Network_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiaoYu_Network_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XiaoYu_Network_Tests/Pods-XiaoYu_Network_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D03A3C32FC11F52237AB8F39 /* Pods-XiaoYu_Network_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiaoYu_Network_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XiaoYu_Network_Example/Pods-XiaoYu_Network_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E5580507B326DC1BEBE84013 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E5580507B326DC1BEBE84013 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
