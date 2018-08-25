@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XiaoYu_Network_Example' do
+  pod 'XiaoYu_Network', :path => '../'
+
+  target 'XiaoYu_Network_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
