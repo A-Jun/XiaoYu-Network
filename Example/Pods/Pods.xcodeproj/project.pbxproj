@@ -950,38 +950,6 @@
 			};
 			name = Debug;
 		};
-		182F6167FC6896F5820B4DA9201611AD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24F530C3BF13DF123CC7699EE8C20711 /* XiaoYu_Network.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XiaoYu_Network/XiaoYu_Network-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XiaoYu_Network/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XiaoYu_Network/XiaoYu_Network.modulemap";
-				PRODUCT_NAME = XiaoYu_Network;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		1C899C399C354D76B326B832076B67A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 15598772E85599F7E1896817323F508C /* YTKNetwork.xcconfig */;
@@ -1175,6 +1143,69 @@
 			};
 			name = Debug;
 		};
+		633EAB177435E4391A040A3AC2CD6218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24F530C3BF13DF123CC7699EE8C20711 /* XiaoYu_Network.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XiaoYu_Network/XiaoYu_Network-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XiaoYu_Network/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XiaoYu_Network/XiaoYu_Network.modulemap";
+				PRODUCT_NAME = XiaoYu_Network;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		818817BF8D9FB76DC2488AC537F48259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24F530C3BF13DF123CC7699EE8C20711 /* XiaoYu_Network.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XiaoYu_Network/XiaoYu_Network-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XiaoYu_Network/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XiaoYu_Network/XiaoYu_Network.modulemap";
+				PRODUCT_NAME = XiaoYu_Network;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1232,37 +1263,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		90C73BCAE5D93CA2A14E7A062ECB8F1C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24F530C3BF13DF123CC7699EE8C20711 /* XiaoYu_Network.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XiaoYu_Network/XiaoYu_Network-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XiaoYu_Network/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XiaoYu_Network/XiaoYu_Network.modulemap";
-				PRODUCT_NAME = XiaoYu_Network;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		92F5801214CD0A1926C196D9BAF74903 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1380,8 +1380,8 @@
 		E2778C7883B26AC4BE596C2740F615E5 /* Build configuration list for PBXNativeTarget "XiaoYu_Network" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90C73BCAE5D93CA2A14E7A062ECB8F1C /* Debug */,
-				182F6167FC6896F5820B4DA9201611AD /* Release */,
+				633EAB177435E4391A040A3AC2CD6218 /* Debug */,
+				818817BF8D9FB76DC2488AC537F48259 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

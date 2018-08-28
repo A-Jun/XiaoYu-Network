@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XiaoYu_Network'
-  s.version          = '0.1.2'
-  s.summary          = 'A short description of XiaoYu_Network.'
-
+  s.version          = '0.1.3'
+  s.summary          = '网络组件，基于YTKNetWorking'
+  s.swift_version    = '4.1'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
