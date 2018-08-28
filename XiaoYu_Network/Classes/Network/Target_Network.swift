@@ -17,10 +17,10 @@ class Target_Network: NSObject {
     
     
      /// 网络配置
-    @objc func Action_Configure(params:[AnyHashable:Any]!) -> Void {
+    @objc func Action_Configure(_ params:[AnyHashable:Any]!) -> Void {
         RJNeworkingManager.shareInstance.configure()
     }
-    @objc func Action_Request(params:[AnyHashable:Any]!) -> Void {
+    @objc func Action_Request(_ params:[AnyHashable:Any]!) -> Void {
         parseArgument(params)
     }
     private
